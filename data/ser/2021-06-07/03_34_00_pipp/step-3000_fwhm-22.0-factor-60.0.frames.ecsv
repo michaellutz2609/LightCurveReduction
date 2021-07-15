@@ -1,0 +1,11 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: frame_id, datatype: int32}
+# - {name: np.sum(img), datatype: int32}
+# - {name: np.median(img), datatype: float64}
+# - {name: mad_std(img), datatype: float64}
+# schema: astropy-2.0
+frame_id np.sum(img) np.median(img) mad_std(img)
+0 414505600 586.0 338.033305819
+3000 1086884114 1608.0 644.93196505

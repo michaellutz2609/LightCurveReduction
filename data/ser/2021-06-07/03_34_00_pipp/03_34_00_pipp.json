@@ -1,0 +1,17 @@
+{
+    "colorID": 8,
+    "colorId_label": "BAYER_RGGB",
+    "dateTime": 637586336404402331,
+    "dateTime_UTC": 637586264404402331,
+    "fileID": "LUCAM-RECORDER",
+    "frameCount": 4522,
+    "imageHeight": 800,
+    "imageWidth": 750,
+    "instrument": "ZWO ASI178MC                            ",
+    "littleEndian": 0,
+    "littleEndian_label": "BIG_ENDIAN",
+    "luID": 0,
+    "observer": "Observer                                ",
+    "pixelDepthPerPlane": 16,
+    "telescope": "telescope                               "
+}

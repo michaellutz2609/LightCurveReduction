@@ -1,0 +1,28 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: frame_id, datatype: int32}
+# - {name: id, datatype: int32}
+# - {name: xcenter, unit: pix, datatype: float64}
+# - {name: ycenter, unit: pix, datatype: float64}
+# - {name: aperture_sum, datatype: float64}
+# meta: !!omap
+# - {name: Aperture photometry results}
+# - {version: 'astropy: 4.2, photutils: 1.0.1'}
+# - {aperture_photometry_args: 'method=''center'', subpixels=5'}
+# - {radius: 39.6}
+# - __serialized_columns__:
+#     xcenter:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: &id001 !astropy.units.Unit {unit: pix}
+#       value: !astropy.table.SerializedColumn {name: xcenter}
+#     ycenter:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id001
+#       value: !astropy.table.SerializedColumn {name: ycenter}
+# schema: astropy-2.0
+frame_id id xcenter ycenter aperture_sum
+0 1 237.063234069 202.106689065 16289327.0
+0 2 510.729409076 246.892113092 21445165.0
+3000 1 157.20562542 416.437255163 25289033.0
+3000 2 410.566348186 456.58961202 27326207.0

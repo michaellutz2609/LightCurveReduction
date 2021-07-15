@@ -1,0 +1,12 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: frame_id, datatype: int32}
+# - {name: id, datatype: int32}
+# - {name: object, datatype: string}
+# schema: astropy-2.0
+frame_id id object
+0 1 a
+0 2 b
+3000 1 a
+3000 2 b

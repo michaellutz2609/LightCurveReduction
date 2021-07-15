@@ -6,9 +6,8 @@
 out
 gen
 
-data/
 docs/
 notebooks/
 venv/
 README.rst
-
+*.ser

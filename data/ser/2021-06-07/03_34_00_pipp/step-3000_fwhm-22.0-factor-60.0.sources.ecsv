@@ -1,0 +1,21 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: frame_id, datatype: int32}
+# - {name: id, datatype: int32}
+# - {name: xcentroid, datatype: float64}
+# - {name: ycentroid, datatype: float64}
+# - {name: sharpness, datatype: float64}
+# - {name: roundness1, datatype: float64}
+# - {name: roundness2, datatype: float64}
+# - {name: npix, datatype: int32}
+# - {name: sky, datatype: float64}
+# - {name: peak, datatype: float64}
+# - {name: flux, datatype: float64}
+# - {name: mag, datatype: float64}
+# schema: astropy-2.0
+frame_id id xcentroid ycentroid sharpness roundness1 roundness2 npix sky peak flux mag
+0 1 237.063234069 202.106689065 0.472799378763 -0.228140227532 0.0927612536937 841 0.0 46220.7428875 13.5958994341 -2.83351985885
+0 2 510.729409076 246.892113092 0.425412967309 -0.0556680300434 0.202492163825 841 0.0 57661.3074153 17.6164493776 -3.11479595044
+3000 1 157.20562542 416.437255163 0.448011892385 -0.00407255003931 -0.228270824436 841 0.0 48178.4709 6.84045793255 -2.08771294104
+3000 2 410.566348186 456.58961202 0.45878228159 0.203349418039 0.0611800319812 841 0.0 59559.6589042 8.73798007823 -2.35352762556
